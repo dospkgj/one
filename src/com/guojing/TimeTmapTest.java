@@ -12,7 +12,7 @@ public class TimeTmapTest {
 	@SuppressWarnings("deprecation")
 	@Test
 	public void test(){
-		 SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+		 SimpleDateFormat sdf = new  SimpleDateFormat("yyyy-MM-dd");
 		String str ="2010-03-05";
 		Date parse = null;
 		String format = sdf.format(parse);
